@@ -1,0 +1,50 @@
+h1{
+    color: aqua;
+    background-color: blue;
+    font-size: 100px;
+    text-decoration: wavy;
+    font-family: arial;
+    text-align:justify ;
+}
+p{
+    color: aquamarine;
+    text-align: justify;
+    line-height: 20px;
+
+}
+li{
+    
+    list-style-type: none;
+    text-shadow: 2px 2px #560909;
+
+
+}
+div{
+
+    padding: 20px;
+    margin: 20px;
+}
+
+.error{
+    color: rgb(58, 169, 24);
+}
+
+.Success{
+    color: #560909;
+}
+
+a[href="www.google.com"]{
+   color: #863399;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+a[href="about.html"]{
+    color: #0f1165;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+
+ a[href$=".com"]{
+    border-color: chartreuse;
+ }
